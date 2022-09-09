@@ -1,0 +1,37 @@
+body{
+    background: url(assets/images/calculator-pen-table-calendar-blue-background-top-view-office-desk-copy-space-179944470.jpg);
+    margin: 6% 20%;
+}
+
+:root{
+    font-size: 0.8vw;
+}
+
+body h2{
+    color: black;
+}
+
+body > header{
+    margin-bottom: 5%;
+}
+
+article{
+    border: solid 1px #000;
+    margin: 5%, 7%;
+    font-size: 0.9rem;
+    /* background-color: blue; */
+}
+
+article p{
+    padding: 5rem 4 em;
+}
+
+form{
+    margin: 5%;
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+/* #numberLabel{
+    font-size: 2rem;
+} */
