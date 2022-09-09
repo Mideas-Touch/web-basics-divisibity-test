@@ -7,9 +7,8 @@ body{
     font-size: 0.8vw;
 }
 
-body h2{
-    color: black;
-    text-align: ce;
+body article h2{
+    color: #0e3a1f;
 }
 
 body > header{
@@ -32,13 +31,20 @@ article{
     background-color: #25D366;
 }
 
+.underline{
+    border-bottom: 5px #0d2c19;
+    padding-bottom: 10px;
+
+}
 
 
 article p{
     /* background-color: #dce9f0; */
-    font-size: 1.2rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin: 0% 30%;
-    padding: 0.2rem ;
+    padding: 0.5rem ;
     margin-bottom: 5%;
     /* border: 2px #0085C3; */
    
@@ -53,13 +59,33 @@ article h2{
 }
 form{
     color:#25D3ff;
-    width: 22vw;
-    background-color: #446852;
+    width: 12vw;
+    background-color: #5ebb82;
+    border: .2rem;
+    border-radius: 10px;
     margin: 1%;
-    padding: 2%;
+    padding: 1.8%;
     font-size: 1.7rem;
+}
+
+input{
+    font-size: 1rem;
+
+}
+
+button{
+    color: #FFFFFF;
+    background-color: #165a30;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 /* #numberLabel{
     font-size: 2rem;
 } */
+
+@media screen {
+    
+}
