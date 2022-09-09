@@ -1,6 +1,6 @@
 body{
     background: url(assets/images/calculator-pen-table-calendar-blue-background-top-view-office-desk-copy-space-179944470.jpg);
-    margin: 6% 20%;
+    margin: 2% 30%;
 }
 
 :root{
@@ -9,27 +9,55 @@ body{
 
 body h2{
     color: black;
+    text-align: ce;
 }
 
 body > header{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+header h1{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    position: sticky;
+    text-align: center;
 }
 
 article{
-    border: solid 1px #000;
-    margin: 5%, 7%;
+    margin: 5 10%;
+    border: 5px #25D366;
+    width: 95%;
+    height: 10vh;
     font-size: 0.9rem;
-    /* background-color: blue; */
+    background-color: #25D366;
 }
+
+
 
 article p{
-    padding: 5rem 4 em;
+    /* background-color: #dce9f0; */
+    font-size: 1.2rem;
+    margin: 0% 30%;
+    padding: 0.2rem ;
+    margin-bottom: 5%;
+    /* border: 2px #0085C3; */
+   
 }
 
+article h2{
+    color: #0d2c19;
+    font-size: 1.8rem;
+    border: .5rem;
+    padding: 1%;
+    background-color:#25D3ff ;
+}
 form{
-    margin: 5%;
+    color:#25D3ff;
+    width: 22vw;
+    background-color: #446852;
+    margin: 1%;
     padding: 2%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 /* #numberLabel{
